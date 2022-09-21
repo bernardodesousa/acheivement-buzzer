@@ -1,1 +1,3 @@
-# acheivement-buzzer
+# achievement-buzz
+
+Motivate kids with timers and noises.
