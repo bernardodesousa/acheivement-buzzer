@@ -1,0 +1,22 @@
+{
+  "name": "achievement-buzz",
+  "version": "1.0.0",
+  "description": "Motivate kids with timers and noises",
+  "scripts": {
+    "start": "http-server ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bernardodesousa/achievement-buzz.git"
+  },
+  "author": "Pedro SOUSA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bernardodesousa/achievement-buzz/issues"
+  },
+  "homepage": "https://github.com/bernardodesousa/achievement-buzz#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

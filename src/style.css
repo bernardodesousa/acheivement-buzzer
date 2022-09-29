@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: calc(100vh - 40px);
+}
+
+.esther {
+    background-color: rgba(42, 126, 77, 0.8);
+}
+
+.elias {
+    background-color: rgba(138, 136, 29, 0.8);
+}
+
+h1 {
+    font-weight: bold;
+    color: rgb(11, 70, 67);
+}
+
+.list {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.list-item-label {
+    padding: 20px;
+    font-size: 30px;
+    text-align: left;
+}
+
+.list-item-time {
+    padding: 20px;
+    font-size: 30px;
+    text-align: left;
+}
