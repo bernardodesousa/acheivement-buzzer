@@ -46,13 +46,13 @@ const EliasDressUp = document.getElementById("EliasDressUp")
 
 let now = new Date()
 
-let hour = 7
+let hour = 6
 
 let deadlines = {
-    wakeUp: new Date(now.getFullYear(), now.getMonth(), now.getDate(), hour, 5),
-    breakfast: new Date(now.getFullYear(), now.getMonth(), now.getDate(), hour, 28),
-    teeth: new Date(now.getFullYear(), now.getMonth(), now.getDate(), hour, 33),
-    dressup: new Date(now.getFullYear(), now.getMonth(), now.getDate(), hour, 45)
+    wakeUp: new Date(now.getFullYear(), now.getMonth(), now.getDate(), hour, 50),
+    breakfast: new Date(now.getFullYear(), now.getMonth(), now.getDate(), hour+1, 20),
+    teeth: new Date(now.getFullYear(), now.getMonth(), now.getDate(), hour+1, 30),
+    dressup: new Date(now.getFullYear(), now.getMonth(), now.getDate(), hour+1, 45)
 }
 
 function millisecondsToString(m) {
